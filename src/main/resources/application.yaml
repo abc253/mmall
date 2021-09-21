@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://8.130.161.60:3306/mmall
+    username: mmall
+    password: wDkGDLSHD5ykYkNB
+    driver-class-name: com.mysql.jdbc.Driver
+
+logging:
+  level:
+    com.li.mapper: debug
+server:
+  port: 8081
